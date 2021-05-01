@@ -1,0 +1,26 @@
+﻿[
+	{
+		"id": "fd1b4932-7699-40b7-abe6-c7c98d52b298",
+		"name": "Eggs",
+		"price": 2.99,
+		"nextDelivery": "2021-03-01T00:00:00.0000000"
+	},
+	{
+		"id": "31f46620-302c-4873-b213-794abdd7ca7a",
+		"name": "Milk",
+		"price": 1.24,
+		"nextDelivery": "2021-02-01T00:00:00.0000000"
+	},
+	{
+		"id": "e9999aa8-9306-463f-a0a9-13efffcd1d1f",
+		"name": "Bananas",
+		"price": 3.99,
+		"nextDelivery": "2021-01-01T00:00:00.0000000"
+	},
+	{
+		"id": "70b27eb0-0ad3-48ea-97bb-e02e27b4758e",
+		"name": "Soda (big pack)",
+		"price": 29.99,
+		"nextDelivery": "2021-02-01T00:00:00.0000000"
+	}
+]

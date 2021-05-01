@@ -1,0 +1,25 @@
+﻿@using Domain;
+
+@model IEnumerable<Product> 
+@{
+    ViewData["Title"] = "Products";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Available products</h1>
+    <div class="d-flex">
+        @foreach (var product in Model)
+        {
+            <div class="p-2">
+                <h2>@product.Name</h2>
+                <h3>@product.Price.ToString("c")</h3>
+                <img width="100" src="/images/products/@(product.Id).png" alt="@product.Name" />
+
+                <div>
+                    <p><strong>Next delivery</strong></p>
+                    <p>@product.NextDelivery</p>
+                </div>
+            </div>
+        }
+    </div>
+</div>

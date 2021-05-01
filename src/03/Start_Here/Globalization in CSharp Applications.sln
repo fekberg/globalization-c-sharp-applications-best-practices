@@ -19,7 +19,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Example Application", "1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Globalizing Different .NET Applications", "3. Globalizing Different .NET Applications", "{646EF208-AEB8-4996-A5B4-181388D479E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using Resource Files", "Using Resource Files\Using Resource Files.csproj", "{73FFE730-46B1-4174-BBFD-A6741D4F5C80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Using Resource Files", "Using Resource Files\Using Resource Files.csproj", "{73FFE730-46B1-4174-BBFD-A6741D4F5C80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Displaying Numbers as Strings", "4. Displaying Numbers as Strings", "{051AAB7A-C435-43A5-854F-2E801E5EAD06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Displaying Numbers as Strings", "Displaying Numbers as Strings\Displaying Numbers as Strings.csproj", "{24317CC4-2177-4D6A-808C-1713362D0D71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Using Custom Numeric Format Strings", "5. Using Custom Numeric Format Strings", "{532E1003-43CC-47D4-85F7-96E8ABD0BCAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using Custom Numeric Format Strings", "Using Custom Numeric Format Strings\Using Custom Numeric Format Strings.csproj", "{D1F37A88-9534-42FB-92D0-EFB741CF458B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. Parsing and Persisting Numbers", "6. Parsing and Persisting Numbers", "{118B081C-CD3C-45DE-82CF-9D230A321AEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parsing and Persisting Numbers", "Parsing and Persisting Numbers\Parsing and Persisting Numbers.csproj", "{A38BB676-35CE-4D32-8A7D-5C23927BF40B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7. Units of Measure", "7. Units of Measure", "{87F2F3B9-3D73-4EB1-BDBB-07EDAFDBF0B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Units of Measure", "Units of Measure\Units of Measure.csproj", "{A45CA1C5-BF47-4154-ABBE-A1DB1208AF35}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +63,22 @@ Global
 		{73FFE730-46B1-4174-BBFD-A6741D4F5C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73FFE730-46B1-4174-BBFD-A6741D4F5C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73FFE730-46B1-4174-BBFD-A6741D4F5C80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24317CC4-2177-4D6A-808C-1713362D0D71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24317CC4-2177-4D6A-808C-1713362D0D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24317CC4-2177-4D6A-808C-1713362D0D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24317CC4-2177-4D6A-808C-1713362D0D71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1F37A88-9534-42FB-92D0-EFB741CF458B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1F37A88-9534-42FB-92D0-EFB741CF458B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1F37A88-9534-42FB-92D0-EFB741CF458B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1F37A88-9534-42FB-92D0-EFB741CF458B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A38BB676-35CE-4D32-8A7D-5C23927BF40B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A38BB676-35CE-4D32-8A7D-5C23927BF40B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A38BB676-35CE-4D32-8A7D-5C23927BF40B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A38BB676-35CE-4D32-8A7D-5C23927BF40B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A45CA1C5-BF47-4154-ABBE-A1DB1208AF35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A45CA1C5-BF47-4154-ABBE-A1DB1208AF35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A45CA1C5-BF47-4154-ABBE-A1DB1208AF35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A45CA1C5-BF47-4154-ABBE-A1DB1208AF35}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +89,10 @@ Global
 		{B975D6F5-CEFA-42AC-818F-B2329B5F8271} = {08409BA9-90A8-4AE1-A93F-7A43AF830577}
 		{17B1F28F-60BD-4C0E-8A07-0213E99CA939} = {6E66F10C-04DB-4332-959F-B38E3A01CD64}
 		{73FFE730-46B1-4174-BBFD-A6741D4F5C80} = {646EF208-AEB8-4996-A5B4-181388D479E8}
+		{24317CC4-2177-4D6A-808C-1713362D0D71} = {051AAB7A-C435-43A5-854F-2E801E5EAD06}
+		{D1F37A88-9534-42FB-92D0-EFB741CF458B} = {532E1003-43CC-47D4-85F7-96E8ABD0BCAD}
+		{A38BB676-35CE-4D32-8A7D-5C23927BF40B} = {118B081C-CD3C-45DE-82CF-9D230A321AEE}
+		{A45CA1C5-BF47-4154-ABBE-A1DB1208AF35} = {87F2F3B9-3D73-4EB1-BDBB-07EDAFDBF0B9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {477809FF-842B-4A47-AA65-3540927F8C0E}

@@ -1,0 +1,18 @@
+﻿<Window x:Class="Using_Resource_Files.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Using_Resource_Files"
+        xmlns:localization="clr-namespace:Using_Resource_Files.Resources"
+        mc:Ignorable="d"
+        FontSize="34" 
+        Height="450" Width="800"
+        Title="{x:Static localization:Main.Main_Window_Title}">
+    <StackPanel Margin="10">
+        <Label FontWeight="Bold" Content="{x:Static localization:Main.Main_Product_TitleLabel}" />
+        <Label Content="{Binding Name}" />
+        <Label FontWeight="Bold" Content="{x:Static localization:Main.Main_Product_PriceLabel}" />
+        <Label Content="{Binding PriceAsString}" />
+    </StackPanel>
+</Window>

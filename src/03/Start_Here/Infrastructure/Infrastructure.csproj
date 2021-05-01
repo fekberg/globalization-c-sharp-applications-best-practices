@@ -6,6 +6,22 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <None Remove="Data\products.fr-FR.json" />
+	  <None Remove="Data\products.json" />
+	  <None Remove="Data\products.sv-SE.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Data\products.fr-FR.json" />
+	  <EmbeddedResource Include="Data\products.json" />
+	  <EmbeddedResource Include="Data\products.sv-SE.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <ProjectReference Include="..\Domain\Domain.csproj" />
 	</ItemGroup>
 

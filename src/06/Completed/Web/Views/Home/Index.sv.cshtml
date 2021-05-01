@@ -1,0 +1,27 @@
+﻿@using Domain;
+@using Microsoft.AspNetCore.Mvc.Localization;
+
+@model IEnumerable<Product> 
+@inject IViewLocalizer Localizer 
+@{
+    ViewData["Title"] = "Products";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Produkter (sv-SE)</h1>
+    <div class="d-flex">
+        @foreach (var product in Model)
+        {
+            <div class="p-2">
+                <h2>@product.Name</h2>
+                <h3>@product.Price.ToString("c")</h3>
+                <img width="100" src="/images/products/@(product.Id).png" alt="@product.Name" />
+
+                <div>
+                    <p><strong>Nästa leverans</strong></p>
+                    <p>@product.NextDelivery.ToString("O")</p>
+                </div>
+            </div>
+        }
+    </div>
+</div>
